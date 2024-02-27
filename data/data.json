@@ -1,0 +1,162 @@
+{
+    "experiencePro": [
+        {
+            "titre": "AUXILIAIRE DE VIE INDEPENDANT",
+            "entreprise": "Tout NET",
+            "lieu": "Bagnols-Sur-Cèze / Avignon",
+            "temps": "depuis 2022",
+            "description": ["Service aux bénéficiaires et relation avec les familles. ", 
+            "Administration des services. ", 
+            "Coordination des soins et des services pluridisciplinaires. ", "Gestion de plannings. "]
+        },
+        {
+            "titre": "AUXILIAIRE DE VIE",
+            "entreprise": "APEF",
+            "lieu": "Bagnols-Sur-Cèze",
+            "temps": "2021 (6 mois)",
+            "description": ["Service aux bénéficiaires et relation avec les familles. ", 
+            "Administration des services. ", 
+            "Coordination des soins et des services pluridisciplinaires. ", "Gestion de plannings. "]
+        },
+        {
+            "titre": "AUXILIAIRE DE VIE",
+            "entreprise": "ACAP",
+            "lieu": "Draguignan",
+            "temps": "2021 (9 mois)",
+            "description": ["Service aux bénéficiaires et relation avec les familles. ", "Administration des services. ", "Coordination des soins et des services pluridisciplinaires. ", "Gestion de plannings. "]
+        },
+        {
+            "titre": "COMMERCIAL INDEPENDANT",
+            "entreprise": "France Prestige - Savons & Cosmétiques",
+            "lieu": "Draguignan",
+            "temps": "2018 - 2020",
+            "description": ["Gestion logistique : gestion de stocks, négociation, devis, commandes et facturations. ", "Service à la clientèle et vente : développement de portefeuilles clients B2B / B2C par prospection et fidélisation. ", "Marketing en ligne (conception de site web (CMS), de logo)"]
+        },
+        {
+            "titre": "ADJOINT DE DIRECTION",
+            "entreprise": "Restaurant Flunch",
+            "lieu": "Bagnols-sur-Cèze",
+            "temps": "2013 - 2018",
+            "description": ["Direction d'équipe et leadership (27 employés). ", "Gestion administrative et financière : supervision de plannings, organisation et planification, gestion des ressources. ","Gestion de la caisse et des flux avec analyses financières. ", "Gestion logistique : supervision des inventaires et des stocks. Gestion des commandes. "]
+        },
+        {
+            "titre": "MANAGER",
+            "entreprise": "Restaurant Flunch",
+            "lieu": "Bagnols-sur-Cèze",
+            "temps": "2011 - 2013",
+            "description": ["Gestion d'équipe : supervision et motivation d'équipe pour atteindre les objectifs. Formation et développement du personnel pour améliorer les performances. Élaboration de plannings. ", "Service à la clientèle et vente : développement de portefeuilles clients B2B / B2C par prospection et fidélisation. ", "Gestion logistique : maîtrise des inventaires et des stocks, minimisation des pertes (méthode first-in / first-out des DLC). Contrôles Qualité."]
+        },
+        {
+            "titre": "EMPLOYE POLYVALENT DE RESTAURATION",
+            "entreprise": "Restaurant Flunch",
+            "lieu": "Bagnols-sur-Cèze",
+            "temps": "2018 - 2020",
+            "description": ["Contribution à la gestion des opérations de cuisine. ", "Polyvalence des postes : entrées, grill, pizza, desserts, etc."]
+        }
+    ],
+    "formation": [
+        {
+            "titre": "CAP - BOUCHER CHARCUTIER",
+            "entreprise": "Boucherie Guy Dalne",
+            "lieu": "IFAPME de Gilly (Belgique)",
+            "temps": "2008",
+            "description": ""
+        },
+        {
+            "titre": "BAC S - ENVIRONNEMENT",
+            "entreprise": "Athénée Royal Yvonne Vieslet",
+            "lieu": "Marchienne-Au-Pont (Belgique)",
+            "temps": "2005",
+            "description": ""
+        }
+    ],
+    "language": [
+        {
+            "titre": "HTML",
+            "lvl": "80"
+        },
+        {
+            "titre": "CSS",
+            "lvl": "50"
+        },
+        {
+            "titre": "JS",
+            "lvl": "60"
+        },
+        {
+            "titre": "SQL",
+            "lvl": "20"
+        },
+        {
+            "titre": "C#",
+            "lvl": "70"
+        },
+        {
+            "titre": ".NET",
+            "lvl": "50"
+        },
+        {
+            "titre": "API Unity",
+            "lvl": "60"
+        }
+    ],
+    "bootSequence": [
+        "=============================================",
+        ">> MAN-TECH OS v98.3.5 [Date: 54-Oct-2183] <<",
+        "=============================================",
+        ">> BOOT INIT... ",
+        "",
+        ">> RUN HARDWARE DETECTION",
+        "",
+        "CPU MODEL: MONOVAC 1kHz SINGLE CORE",
+        "MAIN MEMORY: 4KB MAGNETIC CORE",
+        "SECONDARY STORAGE: 256KB MAGNETIC DRUM",
+        "",
+        "",
+        ">> RUN SYSTEM KERNEL...",
+        "",
+        "LOADING DRIVERS... FAIL",
+        "INIT SERVICES... OK",
+        "",
+        "",
+        ">> RUN SYS CHECKS",
+        "",
+        "CRITICAL ERROR",
+        "DETECTED FILE CORRUPTION IN /sys/core/",
+        "",
+        "",
+        ">> RUN SAFEMODE",
+        "",
+        "DIAGNOSTIC PROCEDURES... FAIL",
+        "AUTO-REPAIR ATTEMPT... FAIL",
+        "MANUAL DEBUG REQUIRED",
+        "",
+        ">> RUN DEBUG MODE... [Access Level: Admin]",
+        "LOADING CV... OK"
+    ],
+    "coordonees" : [
+        { 
+            "nom" : "Nom : Manuel ZUANON"
+        },
+        {
+            "nom" : "Adresse : Avignon intra-muros",
+            "lien" : "https://maps.app.goo.gl/PfXVMKvgnwNqr5tV8"
+        },
+        {
+            "nom" : "email : manuelzuanon[at]gmail.com",
+            "lien" : "mailto:manuelzuanon@gmail.com"
+        },
+        {
+            "nom" : "telephone : 07 50 64 01 16",
+            "lien" : "tel:+33750640116"
+        },
+        {
+            "nom" : "linkedIn : linkedin.com/in/mzuanon",
+            "lien" : "https://www.linkedin.com/in/mzuanon/"
+        },
+        {
+            "nom" : "GitHub : github.com/speedcore12 ",
+            "lien": "https://github.com/speedcore12"
+        }
+    ]
+}

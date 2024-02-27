@@ -1,0 +1,82 @@
+.component {
+  border: 1px dashed #39FF14;
+  padding: 5px;
+  margin: 10px;
+  box-shadow:    0 0 3px #39FF14;
+}
+
+.child1, .child2 {
+  padding: 5px;
+}
+
+
+/* //// Expérience pro, formation ///// */
+
+.componentexperiencePro, 
+.componentformation, 
+.componentexperrienceAsso {
+  display: grid; /* Active Grid pour le parent */
+  grid-template-columns: 1fr 4fr; /* Divise le conteneur en 5 colonnes égales */
+  grid-template-rows: auto auto; /* Deux lignes, la hauteur s'adapte au contenu */
+
+}
+
+/* Configuration du composant parent pour utiliser CSS Grid */
+.componentexperiencePro, 
+.componentformation {
+  display: grid;
+  grid-template-columns: 1fr 4fr; /* 1/5 pour la première colonne, 4/5 pour la deuxième */
+  grid-template-rows: auto auto; /* Deux lignes qui s'adaptent au contenu */
+}
+
+/* Configuration pour le premier enfant (childDiv1) */
+.componentexperiencePro .childDiv1, 
+.componentformation .childDiv1 {
+  grid-column: 1; /* Place le premier enfant dans la première colonne */
+  grid-row: 1 / span 2; /* S'étend sur les deux lignes */
+}
+
+/* Configuration pour le deuxième enfant (childDiv2) */
+.componentexperiencePro .childDiv2, 
+.componentformation .childDiv2 {
+  grid-column: 2; /* Place le deuxième enfant dans la deuxième colonne */
+  grid-row: 1; /* Place le deuxième enfant dans la première ligne */
+
+}
+
+
+.componentcoordonees {
+  border: none;
+  box-shadow: none;
+  padding: 2px;
+  margin: 2px;
+}
+
+.componentcoordonees .child1 {
+  visibility: collapse;
+}
+
+.componentcoordonees .child2 {
+  padding-top: 0px;
+  padding-bottom: 3px;
+}
+
+/* ////// Barre de skills ///// */
+
+.progress-bar {
+  width: 100%;
+  border-radius: 5px;
+  height: 20px;
+  overflow: hidden; /* Assure que le remplissage ne dépasse pas les bords arrondis */
+  background-color: #0D4D32; 
+}
+
+.progress-fill {
+  width: 0%; /* Départ sans remplissage */
+  transition: width 0.5s ease-in-out; /* Animation douce de la largeur */
+  height: 20px;
+  background-color: #39FF14; 
+  box-shadow: 0 0 5px #39FF14, /* Lueur externe */
+  0 0 10px #39FF14, /* Lueur externe un peu plus large */
+  0 0 15px #39FF14 ;/* Lueur externe encore plus large */  
+}
