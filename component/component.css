@@ -44,23 +44,6 @@
 
 }
 
-
-.componentcoordonees {
-  border: none;
-  box-shadow: none;
-  padding: 2px;
-  margin: 2px;
-}
-
-.componentcoordonees .child1 {
-  visibility: collapse;
-}
-
-.componentcoordonees .child2 {
-  padding-top: 0px;
-  padding-bottom: 3px;
-}
-
 /* ////// Barre de skills ///// */
 
 .progress-bar {

@@ -1,0 +1,63 @@
+@media (max-width: 400px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    #containerMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centre les éléments horizontalement */
+    }
+
+    .voletGauche, .voletDroit {
+        width: 100%; /* Prend toute la largeur disponible */
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centre les éléments horizontalement */
+        width: 100%; /* Assure que le header prend toute la largeur */
+    }
+
+
+
+    .photo, .coordonees, .enTete {
+        width: 100%; /* Permet à chaque élément de prendre toute la largeur disponible */
+        max-width: none; /* Annule la limitation de la largeur maximale si elle était définie */
+    }
+
+    /* Ajustements supplémentaires pour le contenu spécifique si nécessaire */
+    .componentexperiencePro, .componentformation, .componentexperrienceAsso {
+        grid-template-columns: 1fr; /* Change la disposition en grille pour une seule colonne */
+    }
+
+    /* Ajuste la configuration de childDiv pour correspondre à la nouvelle disposition */
+    .componentexperiencePro .childDiv1, .componentformation .childDiv1, .componentexperiencePro .childDiv2, .componentformation .childDiv2 {
+        grid-column: 1; /* Tous les enfants occupent maintenant la première (et unique) colonne */
+        grid-row: auto; /* Annule l'extension sur plusieurs lignes si elle était définie */
+    }
+
+    #imageContainer img {
+        width: 100%; /* Permet à l'image de s'adapter à la largeur du conteneur */
+        height: auto; /* Maintient les proportions de l'image */
+        max-width: 100px; /* Optionnel: limite la taille maximale de l'image */
+        max-height: 100px; /* Optionnel: limite la taille maximale de l'image */
+    }
+}
+
+@media (min-width: 401px) and (max-width: 1200px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centre les éléments horizontalement si nécessaire */
+    }
+
+    .photo, .coordonees, .enTete {
+        flex: none; /* Annule la propriété flex précédente */
+        max-width: 100%; /* Permet à chaque élément de prendre toute la largeur */
+        width: 100%; /* Assure que les éléments prennent toute la largeur du conteneur */
+    }
+}

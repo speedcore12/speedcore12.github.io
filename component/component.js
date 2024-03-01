@@ -1,5 +1,5 @@
 /**
- * Crée un composant personnalisé composé d'un élément parent div contenant trois divs enfants.
+ * Crée un composant personnalisé composé d'un élément parent div contenant 2 divs enfants.
  * @param {string} componentClassName - Nom de classe à ajouter à l'élément parent pour une stylisation générale.
  * @param {string} componentClassNameSpecial - Nom de classe supplémentaire pour des styles spécifiques ou pour une identification unique.
  * @returns {Element} L'élément parent div contenant les trois divs enfants configurés.

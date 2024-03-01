@@ -20,9 +20,12 @@ async function loadAndDisplayExperience(key) {
 async function loadAndDisplayCoord(key) {
 
     const list = await loadData(key);
+
+    var newComponent = createComponent(key, key + 0);
+    document.querySelector('.' + key).appendChild(newComponent);
+
     for (let index = 0; index < list.length; index++) {
-        var newComponent = createComponent(key, key + index);
-        document.querySelector('.' + key).appendChild(newComponent);
+
 
         if(list[index].lien){
             await displayLinkText(newComponent.querySelector('.child2'), list[index], speed);
@@ -47,36 +50,64 @@ async function loadAndDisplaylanguage(key) {
     }
 }
 
+async function loadAndDisplayheader(key) {
+
+    const list = await loadData(key);
+    var newComponent = createComponent(key, key+0);
+    document.querySelector('.' + key).appendChild(newComponent);
+    for (let index = 0; index < list.length; index++) {
+        await displayText(newComponent.querySelector('.child2'), list[index], speed, 'p');
+    }
+}
+
 function addBorderBottomToElement(element) {
     var myElement = document.getElementById(element);
     myElement.style.borderBottom = "2px dashed #39FF14";
 }
 
-//loadAndDisplayCoord("coordonees");
+
+
 
 setTimeout(() => {
-    // Affichage de la section ExpPro après le délai spécifié
+
     typeTitle("expProTitre", "Expériences Professionnelles", speed, function() {
         addBorderBottomToElement("expProTitre");
         loadAndDisplayExperience("experiencePro");
     });
 
-    // Affichage de la section Formation après le même délai
     typeTitle("formationTitre", "Formations", speed, function() {
         addBorderBottomToElement("formationTitre");
         loadAndDisplayExperience("formation");
     });
 
-    // Affichage de la section Languages après le même délai
     typeTitle("languageTitre", "Languages", speed, function() {
         addBorderBottomToElement("languageTitre");
         loadAndDisplaylanguage("language");
     });
-
     
-    typeTitle("coordTitre", "Coordonées", speed, function() {
+    typeTitle("coordTitre", "Coordonnées", speed, function() {
         addBorderBottomToElement("coordTitre");
-        loadAndDisplayCoord("coordonees");
+        loadAndDisplayCoord("coordonnees");
+    });
+
+    typeTitle("enTeteTitre", "À propos de ce CV", speed, function() {
+        addBorderBottomToElement("enTeteTitre");
+        loadAndDisplayheader("enTete");
+    });
+
+    typeTitle("langueTitre", "Langues", speed, function() {
+        addBorderBottomToElement("langueTitre");
+        loadAndDisplaylanguage("langue");
+    });
+
+    typeTitle("skillTitre", "Skills", speed, function() {
+        addBorderBottomToElement("skillTitre");
+        loadAndDisplayheader("skill");
+    });
+
+    typeTitle("hobbyTitre", "Hobbys", speed, function() {
+        addBorderBottomToElement("hobbyTitre");
+        loadAndDisplayheader("hobby");
     });
 
     revealImage(5, 300, 100);

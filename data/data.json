@@ -134,9 +134,12 @@
         ">> RUN DEBUG MODE... [Access Level: Admin]",
         "LOADING CV... OK"
     ],
-    "coordonees" : [
+    "coordonnees" : [
         { 
             "nom" : "Nom : Manuel ZUANON"
+        },
+        { 
+            "nom" : "Age : 37 ans (marié)"
         },
         {
             "nom" : "Adresse : Avignon intra-muros",
@@ -158,5 +161,34 @@
             "nom" : "GitHub : github.com/speedcore12 ",
             "lien": "https://github.com/speedcore12"
         }
+    ],
+    "enTete" : [
+        "Bienvenue sur mon CV en ligne. Conçu pour démontrer mes compétences en développement web, ce projet interactif utilise HTML, CSS, et JavaScript pour créer une expérience utilisateur immersive et esthétiquement plaisante, inspirée de l'esthétique des écrans cathodiques et des interfaces des premiers ordinateurs.", 
+        "Mon objectif à travers ce CV est de montrer non seulement ma capacité technique, mais aussi ma créativité et mon intérêt pour l'innovation dans le domaine du développement web.",
+        "Je suis actuellement à la recherche d'une alternance ou d'un poste en tant que développeur web junior." 
+    ],
+    "langue": [
+        {
+            "titre": "Français",
+            "lvl": "95"
+        },
+        {
+            "titre": "Anglais",
+            "lvl": "75"
+        }
+    ],
+    "skill" : [
+        "AUTONOMIE", 
+        "ADAPTABILITÉ", 
+        "CRÉATIVITÉ", 
+        "APPRENTISSAGE RAPIDE",
+        "CURIOSITÉ", 
+        "CAPACITÉ D'ANALYSE", 
+        "PRISE D'INITIATIVE"
+    ],
+    "hobby" : [
+        "Programmation et développement de logiciels et jeux vidéo (Unity)",
+        "Bricolage électronique et domotique (arduino)",
+        "Nouvelles Technologies"
     ]
 }
